@@ -36,11 +36,11 @@
                 </li>
             </ol>
         </section>
-        <span class="Unfinished business">
+        <div class="Unfinished business">
             <h2>Unfinished Business</h2>
             <p>Finish the code for the UI</p>
             <p><strong>Finish customer requirements</strong></p>
-        </span>
+        </div>
         <div class="Future business">
             <h2>Future business</h2>
             <p>We need to design specific pages with links </p>
@@ -59,24 +59,31 @@
             <source src="./media/Video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+        <span>
         <audio controls>
-            <source src="./media/New Recording.mp3" type="audio/mp3">
+            <source src="./media/recording.mp3" type="audio/mp3">
 
             Your browser does not support the audio tag.
         </audio>
+        </span>
         <form>
             <fieldset>
                 <label for="date">Date:</label><br>
                 <input type="date" id="date" name="date"><br>
-                <label for="firstgen">First gen college student:</label><br>
+
+                <label for="yes">First gen college student:</label><br>
                 <input type="radio" id="yes" name="yes"><br>
+
                 <label for="fname">First name:</label><br>
                 <input type="text" id="fname" name="fname"><br>
+
                 <label for="lname">Last name:</label><br>
                 <input type="text" id="lname" name="lname"><br>
+
                 <label for="vetstat">Veteran</label><br>
                 <input type="checkbox" id="vetstat" name="vetstat"><br>
-                <label for="countries">Choose country you are from:</label>
+
+                <label for="country">Choose country you are from:</label>
                 <input list="countries" name="countries" id="country">
 
                 <datalist id="countries">
@@ -96,7 +103,7 @@
                     <option value="audi">Audi</option>
                 </select><br>
                 <label for="comments">Comments:</label><br>
-                <input type="textarea" id="comm" name="comm"><br>
+                <textarea id="comments"></textarea><br>
                 <button type="button">Done</button>
             </fieldset>
         </form>
