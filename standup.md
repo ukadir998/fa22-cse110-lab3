@@ -10,4 +10,6 @@ What you are working on today:
 Gave a photo for team
 Wrote 5 things about myself
 
+
+
 Roadblocks/problems:
