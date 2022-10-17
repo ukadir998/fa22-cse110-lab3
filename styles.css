@@ -1,0 +1,113 @@
+h1 {
+    color:rgb(128, 0, 0);
+    margin-top:1em;
+    margin-bottom:2em;
+    margin-right:1px;
+    margin-left:3px;
+    position:fixed;
+    display:flex;
+    flex-direction:column;
+    flex-grow:initial;
+    flex-wrap: nowrap;
+}
+
+h2 {
+    color: 	#3CB371;
+    margin:1.5em 2% 5em 3%;
+    display:block;
+    height:1em;
+    width:1em;
+    max-width: 1px;
+    min-width: 0px;
+}
+
+h3 {
+    color:blueviolet;
+    background-color: antiquewhite;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-right:2%;
+    padding-left:2%;
+    display:inline-block;
+    
+}
+
+strong, label {
+    color:hsl(43, 100%, 50%);
+    margin:auto;
+    
+}
+
+p {
+    padding:1px 1px 1px 1px;
+    border-style:dashed;
+    border-color:beige;
+    border-width:2px;
+    border: radius 1px;
+    color:blanchedalmond;
+    text-decoration: wavy;
+    text-align:center;
+    position:absolute;
+}
+
+:hover {
+    opacity: 90%;
+}
+
+:active {
+    color:azure;
+}
+
+* {
+    display:grid;
+    grid-area:auto;
+    grid-row:initial;
+    grid-auto-flow: dense;
+}
+
+span{
+    font:"myFont";
+}
+
+@media (max-width: 480px) {
+    .text {
+      font-size: 16px;
+    }
+}
+
+@font-face {
+    font-family: "myFont";
+    src: url(https://fonts.google.com/specimen/Fuzzy+Bubbles)
+}
+
+div.Unfinished {
+    border:green;
+}
+
+#countries {
+    color:indigo;
+}
+
+div[class="Finished"] {
+    fill:tomato;
+}
+
+body p {
+    bottom:auto;
+}
+
+body > div {
+    top:auto;
+}
+
+div ~ span {
+    height:1em;
+}
+
+summary + p {
+    right:1em;
+}
+
+div.diagrams {
+    border-color: rosybrown;
+}
