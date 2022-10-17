@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-URL: https://ukadir998.github.io/Lab2_Starter/
+# Lab 3
+URL:  https://ukadir998.github.io/fa22-cse110-lab3/
